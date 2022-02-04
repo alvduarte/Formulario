@@ -148,7 +148,7 @@ fieldset.grupo .campo {
         margin-top: 2%;
     }
 }
-@media (max-width: 322px){
+@media (max-width: 410px){
   #sobrenome {
   margin-left: 0em;
 }
