@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#título {
+  font-family: sans-serif;
+  color: #1b55ac;
+  margin-left: 7%;
+}
+
+#subtítulo {
+  font-family: sans-serif;
+  color: #102585;
+  margin-left: 12%;
+}
+
+fieldset {
+  border: 0;
+}
+
+body {
+  background-color: #cbd2fa;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #1b55ac;
+  
+  justify-content: center;
+}
+main{
+    margin-left: 36%;
+    margin-top: 2%;
+}
+
+input,
+select,
+textarea,
+button {
+  border-radius: 5px;
+}
+
+.campo {
+  margin-bottom: 1em;
+}
+
+.campo label {
+  margin-bottom: 0.3em;
+  color: #1b55ac;
+  display: block;
+}
+
+fieldset.grupo .campo {
+  float: left;
+  margin-bottom: 1em;
+}
+
+
+.campo input[type="text"],
+.campo select,
+.campo textarea {
+  padding: 0.7em;
+  width: 10em;
+  border: 1px solid #1b55ac;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+  display: block;
+}
+
+.campo input[type="sobrenome"]{
+  margin-left: 1em;
+  padding: 0.7em;
+  width: 15em;
+  border: 1px solid #1b55ac;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+  display: block;
+}
+
+.campo input[type="email"]{
+    padding: 0.7em;
+    width: 25em;
+    border: 1px solid #1b55ac;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: block;
+  }
+
+#sobrenome {
+    margin-left: 1em;
+}
+
+.campo select option {
+  padding-right: 1em;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  background-color: cornsilk;
+}
+
+.botao {
+  font-size: 1.2em;
+  background: #1b55ac;
+  border: 0;
+  margin-bottom: 1em;
+  color: #ffffff;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.botao:hover {
+  background: rgb(13, 43, 100);
+  box-shadow: inset 2px 2px 2px rgb(0, 0, 0, 0.2);
+  text-shadow: none;
+}
+
+.botao, select {
+  cursor: pointer;
+}
+
+#check {
+  display:inline-block;
+}
+
+@media (max-width: 874px){
+    main{
+        margin-left: 26%;
+        margin-top: 2%;
+    }
+
+    
+
+}
+@media (max-width: 756px){
+    main{
+        margin-left: 16%;
+        margin-top: 2%;
+    }
+}
+
+@media (max-width: 640px){
+    main{
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+}
