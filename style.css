@@ -148,3 +148,10 @@ fieldset.grupo .campo {
         margin-top: 2%;
     }
 }
+@media (max-width: 322px){
+  #sobrenome {
+  margin-left: 0em;
+}
+  
+}
+
